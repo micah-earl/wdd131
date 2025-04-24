@@ -1,0 +1,22 @@
+body{
+    background-color: #ffffff;
+    text-align: center;
+
+}
+.page_container{
+  border: 1px solid #000;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.big_txt{
+    text-align: center;
+
+}
+
+.med_txt{
+    text-align: center;
+    color: blue;
+    border-bottom:  1px solid black;
+}
