@@ -50,7 +50,16 @@ footer {
     text-align: center;
     margin-top: 40px;
 }
-footer img{
+#logo{
     width: 120px;
     height: auto;
+}
+
+body.dark-mode .page_container {
+    background-color: #333;
+    border-color: #666;
+    color: #fff;
+  }
+#mode-select{
+    width: 150px;
 }
