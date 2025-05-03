@@ -55,11 +55,12 @@ footer {
     height: auto;
 }
 
-body.dark-mode .page_container {
-    background-color: #333;
-    border-color: #666;
-    color: #fff;
-  }
+
+body.dark .page_container { 
+    background-color: #333; 
+    border-color: #666; 
+    color: #fff; 
+}
 #mode-select{
     width: 150px;
 }
