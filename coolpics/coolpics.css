@@ -52,13 +52,13 @@ button {
     font-size: 90px;
 }
 
+.hidden {
+    display: none;
+}
 
 @media screen and (min-width:800px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
-    }
-    a{
-        display: none;
     }
 }
 
@@ -67,10 +67,10 @@ button {
         grid-template-columns: 1fr 1fr 1fr;
         
     }
-    button {
+    button.menu{
         display: none;
     }
-    a{
-        display: inline-block;
+    .hidden {
+        display: block;
     }
 }
