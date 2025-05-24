@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+:root {
+  --primary-color: #EFC69B;
+  --secondary-color: #AF1B3F;
+  --accent-color: #473144;
+  --text-dark: #333;
+  --text-light: #ebebeb;
+  --body-font: Helvetica, Arial, sans-serif;
+  --headline-font: "Mooli", serif;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  color: var(--accent-color);
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: end;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  background-color: #fff;
+}
+
+.main-nav li {
+  padding: 0 1rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.book-review {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  background-color: #fdf6f0;
+}
+
+.book-review img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--secondary-color);
+}
+
+.skiptocontent a {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.read_more{
+    color: var(--secondary-color);
+}
