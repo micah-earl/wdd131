@@ -44,39 +44,33 @@ h1 {
   color: var(--secondary-color);
   font-weight: bold;
 }
-
-.grid-layout {
+.main {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
+  grid-template-columns: 2fr 1fr;
 }
 
 
 
-.articles {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.book-review {
+.book {
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 1rem;
-  border: 1px solid var(--primary-color);
-  padding: 1rem;
-  background-color: #fdf6f0;
-}
-
-.book-review img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid var(--secondary-color);
+  align-content: center;
 }
 
 
 
-.read_more{
-    color: var(--secondary-color);
+
+.filters {
+  border: 2px solid #78C0E0;
+  margin: 15px;
+}
+
+.metadata {
+  border-right: 1px solid black;
+  padding: 10px;
+}
+
+.content {
+  padding: 10px;
 }
