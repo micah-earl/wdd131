@@ -1,0 +1,42 @@
+   body {
+    font-size: 20px;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+  .main-nav > li {
+    flex: 0 1 5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+
+.media-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.media-card img{
+    width: 70%;
+}
+
+
+
+@media screen  and{ min-width: 700px;
+    
+}
