@@ -1,0 +1,14 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #001514;
+    --secondary-color: #FBFFFE;
+    --accent1-color: #747578;
+    --accent2-color: #F64740;
+  
+
+
+#header-logo{
+    text-align: center;
+    text-decoration: none;
+    color:var(--accent2-color);
+}
